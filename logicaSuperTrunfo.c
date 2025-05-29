@@ -7,7 +7,7 @@
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
    
- Estrutura da carta
+ // Estrutura da carta
 typedef struct {
     char estado[30];
     char codigo[10];
@@ -20,7 +20,8 @@ typedef struct {
     float pib_per_capita;
 } Carta;
 
-int menuAtributos(char *mensagem) { // os atributos das cartas
+// os atributos das cartas
+int menuAtributos(char *mensagem) { 
     int opcao;
     printf("\n%s\n", mensagem);
     printf("1. População\n");
